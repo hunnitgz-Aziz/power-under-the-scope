@@ -1,0 +1,16 @@
+//Color Variables
+$white: #FFFFFF;
+$black: #000000;
+
+//Font families
+$regular: 'Avenir Next Regular', Helvetica Neue, Arial, monospace;
+$bold: 'Avenir Next Bold', Helvetica Neue, Arial, monospace;
+$semi-bold: 'Avenir Next Demibold', Helvetica Neue, Arial, monospace;
+
+@import 'Typography';
+@import 'App';
+@import 'Body';
+@import 'Navbar';
+@import 'Home';
+@import 'Card';
+

@@ -1,0 +1,20 @@
+body {
+	background-color: white;
+	margin: 0;
+	min-height: 100%;
+}
+
+html, body {
+	height: 100%;
+}
+
+html {
+	font-size: 62.5%;
+	-webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+.main-wrapper {
+	overflow: hidden;
+}

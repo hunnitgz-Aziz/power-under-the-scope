@@ -1,0 +1,15 @@
+.card {
+	background-color: gray;
+	border-radius: 3px;
+	display: inline-block;
+	float: left;
+	height: 32rem;
+	max-width: 20.4rem;
+	width: 20.4rem;
+	margin: 0 0.6rem;
+
+	.card-link {
+		display: block;
+		height: 100%;
+	}
+}

@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'Avenir Next Bold';
+  src: url("/fonts/AvenirNextLTPro-Bold.otf") format("opentype"); }
+@font-face {
+  font-family: 'Avenir Next Regular';
+  src: url("/fonts/AvenirNextLTPro-Regular.otf") format("opentype"); }
+@font-face {
+  font-family: 'Avenir Demibold';
+  src: url("/fonts/AvenirNextLTPro-Demi.otf") format("opentype"); }
+h1 {
+  font-size: 4.8rem;
+  font-family: "Avenir Next Bold", Helvetica Neue, Arial, monospace;
+  margin: 0; }
+
+h2 {
+  font-family: "Avenir Next Bold", Helvetica Neue, Arial, monospace;
+  font-size: 3.2rem;
+  margin-bottom: 1rem; }
+
+h3 {
+  font-family: "Avenir Next Bold", Helvetica Neue, Arial, monospace;
+  font-size: 2.6rem;
+  font-weight: "Avenir Next Bold", Helvetica Neue, Arial, monospace; }
+
+h4 {
+  font-size: 2.2rem;
+  font-family: "Avenir Next Demibold", Helvetica Neue, Arial, monospace; }
+
+h5 {
+  font-size: 2rem;
+  font-family: "Avenir Next Demibold", Helvetica Neue, Arial, monospace; }
+
+h6 {
+  font-size: 1.8rem;
+  font-family: "Avenir Next Demibold", Helvetica Neue, Arial, monospace; }
+
+p {
+  font-size: 1.8rem;
+  font-family: "Avenir Next Regular", Helvetica Neue, Arial, monospace;
+  line-height: 1.5; }
+
+.app-root, .main-wrapper {
+  height: 100%; }
+
+body {
+  background-color: white;
+  margin: 0;
+  min-height: 100%; }
+
+html, body {
+  height: 100%; }
+
+html {
+  font-size: 62.5%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility; }
+
+.main-wrapper {
+  overflow: hidden; }
+
+.navbar {
+  padding: 8.7rem 0 2.5rem;
+  text-align: center; }
+
+.home-description {
+  text-align: center;
+  max-width: 82rem;
+  margin: auto;
+  width: 90%; }
+  .home-description p {
+    font-family: "Avenir Next Demibold", Helvetica Neue, Arial, monospace;
+    font-size: 2.4rem; }
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  margin: auto;
+  max-width: 102rem;
+  width: 100%; }
+
+.card {
+  background-color: gray;
+  border-radius: 3px;
+  display: inline-block;
+  float: left;
+  height: 32rem;
+  max-width: 20.4rem;
+  width: 20.4rem;
+  margin: 0 0.6rem; }
+  .card .card-link {
+    display: block;
+    height: 100%; }
+
+/*# sourceMappingURL=index.css.map */
