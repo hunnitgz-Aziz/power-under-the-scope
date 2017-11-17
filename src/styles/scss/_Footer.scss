@@ -1,0 +1,14 @@
+.footer {
+	position: absolute;
+	padding: 2rem 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+
+	a {
+		color: $grey;
+		font-size: $base-font-size;
+		font-family: $regular;
+		text-decoration: none;
+	}
+}

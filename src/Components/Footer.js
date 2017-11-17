@@ -6,10 +6,8 @@ export default class Footer extends Component {
 	render() {
 		return (
 			<footer className="footer">
-				<a>Learn about this project.</a>
+				<a href="/about">Learn more about this project.</a>
 			</footer>
 		)
 	}
 }
-
-export default Footer;

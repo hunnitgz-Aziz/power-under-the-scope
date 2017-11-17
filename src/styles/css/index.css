@@ -60,8 +60,12 @@ html {
   overflow: hidden; }
 
 .navbar {
+  position: fixed;
   padding: 8.7rem 0 2.5rem;
-  text-align: center; }
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 1000; }
 
 .home-description {
   text-align: center;
@@ -92,5 +96,20 @@ html {
   .card .card-link {
     display: block;
     height: 100%; }
+
+.footer {
+  position: absolute;
+  padding: 2rem 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center; }
+  .footer a {
+    color: #AAAAAA;
+    font-size: 1.8rem;
+    font-family: "Avenir Next Regular", Helvetica Neue, Arial, monospace;
+    text-decoration: none; }
+
+.main {
+  margin-top: 21rem; }
 
 /*# sourceMappingURL=index.css.map */
