@@ -67,6 +67,9 @@ html {
   width: 100%;
   z-index: 1000; }
 
+.home-body {
+  margin-top: 21rem; }
+
 .home-description {
   text-align: center;
   max-width: 82rem;
@@ -109,7 +112,53 @@ html {
     font-family: "Avenir Next Regular", Helvetica Neue, Arial, monospace;
     text-decoration: none; }
 
-.main {
-  margin-top: 21rem; }
+.profile .profile-hero {
+  background-color: #7CF4F2;
+  height: 100vh;
+  position: relative; }
+  .profile .profile-hero .profile-info-body {
+    padding: 5rem;
+    position: absolute;
+    bottom: 0;
+    left: 0; }
+    .profile .profile-hero .profile-info-body .character-block {
+      margin-bottom: 20rem; }
+      .profile .profile-hero .profile-info-body .character-block .title, .profile .profile-hero .profile-info-body .character-block .character-name {
+        margin: 0; }
+      .profile .profile-hero .profile-info-body .character-block .title {
+        position: relative; }
+        .profile .profile-hero .profile-info-body .character-block .title:before {
+          content: "";
+          display: block;
+          border-left: 2px solid #FFFFFF;
+          border-top: 2px solid #FFFFFF;
+          position: absolute;
+          height: 24px;
+          width: 24px;
+          left: -10px;
+          top: -10px; }
+    .profile .profile-hero .profile-info-body .primary-info-block .first-name, .profile .profile-hero .profile-info-body .primary-info-block .last-name {
+      margin: 0; }
+    .profile .profile-hero .profile-info-body .primary-info-block .first-name {
+      position: relative; }
+      .profile .profile-hero .profile-info-body .primary-info-block .first-name:after {
+        content: "";
+        display: inline-block;
+        width: 54px;
+        height: 2px;
+        background-color: #333333;
+        position: absolute;
+        transform: translateY(-50%);
+        top: 50%;
+        margin-left: 1.6rem; }
+  .profile .profile-hero .profile-console-body {
+    position: absolute;
+    right: -80px;
+    top: 50%;
+    transform: rotate(90deg); }
+    .profile .profile-hero .profile-console-body .age-block, .profile .profile-hero .profile-console-body .gender-block, .profile .profile-hero .profile-console-body .hair-strand-block {
+      display: inline-block; }
+      .profile .profile-hero .profile-console-body .age-block h6, .profile .profile-hero .profile-console-body .gender-block h6, .profile .profile-hero .profile-console-body .hair-strand-block h6 {
+        margin: 0; }
 
 /*# sourceMappingURL=index.css.map */

@@ -1,0 +1,70 @@
+.profile {
+	.profile-hero {
+		background-color: $teal;
+		height: 100vh;
+		position: relative;
+
+		.profile-info-body {
+			padding: 5rem;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+
+			.character-block {
+				margin-bottom: 20rem;
+
+				.title, .character-name {
+					margin: 0;
+				}
+
+				.title {
+					position: relative;
+
+					&:before {
+						content: "";
+						display: block;
+						border-left: 2px solid $white;
+						border-top: 2px solid $white;
+						position: absolute;
+						height: 24px;
+						width: 24px;
+						left: -10px;
+						top: -10px;
+					}
+				}
+			}
+
+			.primary-info-block {
+				.first-name, .last-name { margin: 0; }
+
+				.first-name {
+					position: relative;
+					&:after {
+						content: "";
+						display: inline-block;
+						width: 54px;
+						height: 2px;
+						background-color: $dark-gray;
+						position: absolute;
+						transform: translateY(-50%);
+						top: 50%;
+						margin-left: 1.6rem;
+					}
+				}
+			}
+		}
+
+		.profile-console-body {
+			position: absolute;
+			right: -80px;
+			top: 50%;
+			transform: rotate(90deg);
+
+			.age-block, .gender-block, .hair-strand-block {
+				display: inline-block;
+
+				h6 { margin: 0; }
+			}
+		}
+	}
+}

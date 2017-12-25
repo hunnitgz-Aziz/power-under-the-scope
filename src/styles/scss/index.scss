@@ -2,6 +2,8 @@
 $white: #FFFFFF;
 $black: #000000;
 $grey: #AAAAAA;
+$teal: #7CF4F2;
+$dark-gray: #333333;
 
 //Font families
 $regular: 'Avenir Next Regular', Helvetica Neue, Arial, monospace;
@@ -18,4 +20,5 @@ $base-font-size: 1.8rem;
 @import 'Card';
 @import 'Footer';
 @import 'Main';
+@import 'Profile';
 
